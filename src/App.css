@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.topbar{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.search input{
+  height:50px;
+  border:none;
+  box-shadow:none;
+  outline:none;
+  font-size:18px;
+  padding:3px;
+  width:250px;
+  border-radius:10px;
+  background-color: lightgray;
+}
+
+.title img{
+  height:60px;width:60px;
+  mix-blend-mode:darken;
+  cursor: pointer;
+  margin:8px;
+}
+.itemSection{
+  display:flex;
+  width:100%;
+}
+
+.itemSection img{
+ width:100%;
+  mix-blend-mode:darken;
+}
+
+.landingSection{
+  padding:0px 180px;
+}
+.chainSection{
+  display:flex;
+  gap:18px;
+  height:auto;
+  overflow-x:hidden;
+  
+  
+  
+  position:relative;
+}
+.card-image{
+  height:180px;
+  width: 280px;
+  flex:0 0 auto;object-fit: cover;
+  border-radius: 8px;
+}
+.card-imageFirmCol{
+ 
+  
+  height:132px;
+  width: 198px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.firmSection{
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:28px;
+  margin:0 auto;
+}
+.firmsEction{
+  border-radius: 12px;
+  position:relative;
+}
+.title-des{
+  display:flex;
+  position:relative;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+.img-overlay1{
+  color:rgb(255, 255, 255);
+  font-weight:900;
+  position:absolute;
+  background:transparent;
+  width:100%;
+  max-width:97%;
+  top:111px;
+  padding-left:2px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius:12px; 
+  font-size:15px;
+  text-transform:uppercase;
+  background:linear-gradient(to bottom,rgba(50,0,0,0.08),black)
+}
+.card-img-overlay1 p{
+  background-color: rgb(42, 40, 40);
+  padding-left:8px;
+}
+.infoFirm #span3 ,#span2{
+  color:gray;
+  font-size:12px;
+}
+
+.searchByText{
+  width:100%;
+  max-width:50%;
+  border-radius:8px;
+}
+
+.link{
+  text-decoration:none;
+  color:black;
+}
+
+/* loadersection */
+
+.loaderSection{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.activeButton{
+  background-color: blue;
+  color:white;
+}
+.firmProducts{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding:10px 200px;
+ 
+}
+.productsSection{
+  display:flex;
+  padding:10px;
+  margin:10px;
+  flex-direction:row;
+  justify-content: space-between;
+ 
+}
+.productsSection span{
+  font-size:12px;
+  color:gray;
+}
+.forImage{
+  position:relative;
+}
+.forImage button{
+  position:absolute;
+  bottom:-15px;
+  border-radius: 6px;
+  background-color: white;
+  color:green;
+  border:1px solid lightgray;
+  padding:4px 30px;
+  margin:4px;
+right:20px;
+font-weight:800;
+}
+.productImage{
+  height:150px;
+  border-radius: 8px;
+  width:150px;
+  object-fit: cover;
+}
+.firmNameInProductPage{
+  width:100%;
+  background-color: chocolate;
+}
+@media(max-width:576px){
+  .topbar{
+    border:1px solid red;
+    
+    display:flex;
+    justify-content: space-evenly;
+
+  }
+  .topbar div{
+    border:1px solid red;
+   
+
+  }
+  .landingSection{
+    padding:10px;
+  }
+  .itemSection{
+    border:1px solid red;
+  }
+  .search input{
+    height:50px;
+    border:none;
+    box-shadow:none;
+    outline:none;
+    font-size:18px;
+    padding:3px;
+    width:270px;
+    border-radius:10px;
+    background-color: lightgray;
+  }
+  h4{
+    font-size:medium;
+  }
+  .card-image{
+    width:240px;
+    height:150px;
+    object-fit: cover;
+    flex:0 0 auto;
+  }
+  button{
+    padding:4px 20px 4px 20px;
+    margin:4px;
+    border-radius:20px;
+    background:transparent;
+    outline:none;
+    box-shadow:none;
+    border:1px solid black;
+    transform:1s ease-in-out;
+  }
+  .searchByText{
+    border:1px solid black;
+    height:30px;
+    border-radius:20px;
+  }
+  .filterButtons{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+  }
+  .firmSection{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:28px;
+    margin:0 auto;
+  }
+  .img-overlay1{
+   
+    position:absolute;
+    
+    width:100%;
+    max-width:91%;
+  
+  }
+  .firmProducts{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding:5px;
+   
+  }
+ 
+}

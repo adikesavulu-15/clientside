@@ -1,0 +1,30 @@
+export const itemData=[
+    {
+    img_name:"Bonda.jpg"
+},
+{
+    img_name:"Dosa.jpg"
+},
+{
+    img_name:"Idli.jpg"
+},
+{
+    img_name:"Juice.jpg"
+},
+{
+    img_name:"Pancake.jpg"
+},
+{
+    img_name:"Paratha.jpg"
+},
+{
+    img_name:"Poha.jpg"
+},
+{
+    img_name:"Poori.jpg"
+},
+{
+    img_name:"Vada.jpg"
+},
+
+]
